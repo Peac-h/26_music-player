@@ -1,0 +1,35 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  padding: 1rem;
+  display: grid;
+  place-items: center;
+  font-family: "Lato", sans-serif;
+  background: #ddd;
+}
+
+.author {
+  position: absolute;
+  bottom: 1%;
+  right: 1%;
+  font-size: 1.5rem;
+  color: #777;
+
+  a:link,
+  a:visited {
+    text-decoration: none;
+    color: inherit;
+  }
+}

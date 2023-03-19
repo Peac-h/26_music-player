@@ -1,0 +1,39 @@
+.line {
+  position: absolute;
+  height: 100rem;
+  width: 100rem;
+  opacity: 0.6;
+  left: -39rem;
+  top: -82rem;
+  border: 1px solid #fff;
+  border-radius: 40%;
+  animation: line 85s infinite linear;
+
+  &:nth-child(2) {
+    top: -81.9rem;
+    animation-duration: 40s;
+  }
+  &:nth-child(3) {
+    top: -81.9rem;
+    animation-duration: 35s;
+  }
+}
+
+.playing.line {
+  animation: line 5s infinite linear;
+}
+.playing.line:nth-child(2) {
+  animation-duration: 7s;
+}
+.playing.line:nth-child(3) {
+  animation-duration: 9s;
+}
+
+@keyframes line {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

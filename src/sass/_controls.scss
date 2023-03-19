@@ -1,0 +1,126 @@
+.card--front {
+  &:hover .controls .button--next-page {
+    opacity: 1;
+  }
+  &:hover .controls {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .controls {
+    display: flex;
+    justify-content: space-between;
+    transition: 0.5s;
+
+    opacity: 0;
+    visibility: hidden;
+
+    @media (any-hover: none) {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .button {
+      border: none;
+      background: none;
+      cursor: pointer;
+
+      svg {
+        fill: #aaa;
+        scale: 0.8;
+      }
+
+      &--small svg {
+        scale: 0.6;
+      }
+
+      &--next-page {
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 1;
+        opacity: 0;
+        transition: 0.5s;
+        fill: #aaa;
+
+        @media (any-hover: none) {
+          opacity: 1;
+          visibility: visible;
+        }
+      }
+    }
+
+    .button--state-active {
+      background: #888;
+
+      svg {
+        fill: #eee;
+      }
+    }
+
+    .hide {
+      display: none;
+    }
+  }
+}
+
+.card--back {
+  &:hover .button--prev-page {
+    opacity: 1;
+  }
+
+  .btn-pause--back svg {
+    scale: 0.6;
+  }
+
+  button {
+    border: none;
+    background: none;
+    cursor: pointer;
+
+    grid-row: 1 / span 2;
+    height: 4rem;
+    width: 4rem;
+
+    opacity: 1;
+
+    svg {
+      fill: #aaa;
+      scale: 0.8;
+    }
+  }
+
+  .button--prev-page {
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0;
+    transition: 0.5s;
+
+    @media (any-hover: none) {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    svg {
+      scale: 0.6;
+    }
+  }
+
+  .hide {
+    display: none;
+  }
+}
+
+.card--back.show {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(0);
+}
+
+.card--front.hide .image,
+.card--front.hide .details,
+.card--front.hide .controls {
+  opacity: 0;
+  visibility: hidden;
+}

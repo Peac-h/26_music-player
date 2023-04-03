@@ -1,13 +1,13 @@
 import track01 from "url:../playlist/Exit_Music.mp3";
 import track02 from "url:../playlist/Within.mp3";
-import track03 from "url:../playlist/Instant_Crush.mp3";
-import track04 from "url:../playlist/Veridis_Quo.mp3";
-import track05 from "url:../playlist/Imagination.mp3";
+import track03 from "url:../playlist/Circles.mp3";
+import track04 from "url:../playlist/She_Doesnt_Live_Here_Anymore.mp3";
+import track05 from "url:../playlist/Veridis_Quo.mp3";
 import track06 from "url:../playlist/Not_Your_Blood.mp3";
-import track07 from "url:../playlist/Modi_Tsavidet.mp3";
-import track08 from "url:../playlist/Nu_Usmen_Khalkhs.mp3";
-import track09 from "url:../playlist/Oblivion.mp3";
-import track10 from "url:../playlist/Acid_Morning.mp3";
+import track07 from "url:../playlist/Imagination.mp3";
+import track08 from "url:../playlist/Joaquim.mp3";
+import track09 from "url:../playlist/Princess.mp3";
+import track10 from "url:../playlist/Nostalgic_Bitch.mp3";
 
 export const playlist = [
   {
@@ -21,18 +21,18 @@ export const playlist = [
     source: track02,
   },
   {
-    track: "Instant Crush",
-    artist: "Daft Punk",
+    track: "Circles",
+    artist: "Mebo Renard",
     source: track03,
   },
   {
-    track: "Veridis Quo",
-    artist: "Daft Punk",
+    track: "She Doesn't Live Here Anymore",
+    artist: "Mebo Renard",
     source: track04,
   },
   {
-    track: "Imagination",
-    artist: "Nika Chokheli ft. Nina Kipshidze",
+    track: "Veridis Quo",
+    artist: "Daft Pank",
     source: track05,
   },
   {
@@ -41,23 +41,23 @@ export const playlist = [
     source: track06,
   },
   {
-    track: "Modi Tsavidet",
-    artist: "Irakli Charkviani",
+    track: "Imagination",
+    artist: "Nika Chokheli ft. Nina Kipshidze",
     source: track07,
   },
   {
-    track: "Nu Usmen Khalkhs",
-    artist: "Irakli Charkviani",
+    track: "Joaquim",
+    artist: "Oscar and the Wolf",
     source: track08,
   },
   {
-    track: "Oblivion",
-    artist: "Boston 168",
+    track: "Princess",
+    artist: "Oscar and the Wolf",
     source: track09,
   },
   {
-    track: "Acid Morning",
-    artist: "Boston 168",
+    track: "Nostalgic Bitch",
+    artist: "Oscar and the Wolf",
     source: track10,
   },
 ];

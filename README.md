@@ -12,7 +12,9 @@ The app contains ten beautiful tracks and is responsive to all screen sizes.
 
 ## Checkout the live demo
 
-[Music App]()
+[Music App](https://peac-h.github.io/26_music-player/)
+
+![Music App](https://raw.githubusercontent.com/Peac-h/26_music-player/main/Screen%20Shot%202023-04-21%20at%209.17.58%20PM.png)
 
 ## Built with
 

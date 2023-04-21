@@ -1,4 +1,4 @@
-# Project 27 - Music App (OOP Project)
+# Project 26 - Music App (OOP Project)
 
 This is a JavaScript Music App built in the object-oriented programming paradigm using JS ES6 Classes and modules.
 
@@ -8,7 +8,7 @@ The controls are hidden and only revealed when hovering over the player. However
 
 The app contains ten beautiful tracks and is responsive to all screen sizes.
 
-**This is my 27th small project so far.**
+**This is my 26th small project so far.**
 
 ## Checkout the live demo
 
@@ -19,9 +19,7 @@ The app contains ten beautiful tracks and is responsive to all screen sizes.
 - html
 - css
 - sass
-- OOP paradigm (ES6 Classes)
-- modules
-- vanilla javascript
+- vanilla javascript (OOP, ES6 classes, modules)
 
 ## Author
 
